@@ -10,7 +10,7 @@
 	width: 100px;
 	top: 10%;
 	left: 46%;
-	animation: rocket 10s infinite alternate;;
+	animation: rocket 15s infinite alternate;;
 	transform: translateX(-5%) rotate(71deg);
 	z-index:inherit;
 /*	background: linear-gradient(#00d0ff, transparent);*/
