@@ -1,0 +1,12 @@
+.divbox{
+	position: relative;
+	height: 700px;
+	width: 800px;
+	background: blue;
+}
+.divchild{
+	position: absolute;
+	height: 500px;
+	width: 400px;
+	background: wheat;
+}
