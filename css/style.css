@@ -1,12 +1,28 @@
 .divbox{
 	position: relative;
-	height: 700px;
-	width: 800px;
-	background: blue;
+	height:750px;
+	width: 800px%;
+	background: black;
 }
-.divchild{
+.rocket{
 	position: absolute;
-	height: 500px;
-	width: 400px;
-	background: wheat;
+	height: 150px;
+	width: 100px;
+	top: 10%;
+	left: 46%;
+	animation: rocket 10s infinite alternate;;
+	transform: translateX(-5%) rotate(70deg);
+	z-index:inherit;
+/*	background: linear-gradient(#00d0ff, transparent);*/
+}
+@keyframes rocket{
+	0%{transform: translateY(300px);}
+
+    20%{transform: translateX(700px);}
+}
+.moon{
+	position: absolute;
+	left: 55%;
+	height:480px ;
+	width: 480px;
 }
